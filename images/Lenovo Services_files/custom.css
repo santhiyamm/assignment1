@@ -1,0 +1,89 @@
+html,body{ background:#FFFFFF; height:100%;}
+html,body,*{ font-family:"helvetica",sans-serif !important;}
+#wrapper{ min-height:100%;position:relative;}
+.lenovo-logo{ position:fixed; width:46px; height:141px; top:60px; left:0; z-index: 9999 !important;}
+.nav-container{ border:none;}
+.navbar-brand img{ max-height:26px; vertical-align:baseline;}
+.container{ border-top:none; background-color:transparent;}
+.sections{ padding:40px 0;}
+.speakers{ margin:0;}
+.grey-bg{ background-color:#f7f7f7;}
+.white-bg{ background-color:#FFFFFF;}
+.pad30{ padding:30px 0;}
+.pad60{ padding:60px 0;}
+.mar20{ margin:20px 0;}
+.btn{ background-color:#005e9d; border-color:#01436f;}
+/*footer{ width: 100%; height: 50px; position: absolute; bottom: 0; left: 0;}*/
+.footer{ background:#000; color:#FFF; padding:15px 0;}
+.footer p{ margin:0; font-size:12px; color:#dddddd;}
+.footer ul{ margin:0; padding:0 20px; list-style:none;}
+.footer ul li{ display:inline-block; margin:0 10px;}
+.footer ul li a{ color:#D9D9D9; font-size:12px;}
+.register-form.register-form form .form-group{ width:100%; margin:20px 0;}
+.schedule .panel p{ min-height:67px;}
+.block-buttons{ margin-top:10px;}
+.panel-heading h4 a{ text-transform:uppercase; color:#000 !important;}
+.block-buttons a{ font-size:13px; margin-right:10px;}
+#myCarousel .carousel-inner .item.ad1 { background: url(../img/slides/slider2.png) no-repeat center 0 !important; background-size:cover !important;}
+#myCarousel .carousel-inner .item.ad2 { background: url(../img/slides/slider3.png) no-repeat center 0 !important; background-size:cover !important;}
+#myCarousel .carousel-inner .item.ad3 { background: url(../img/slides/slider1.png) no-repeat center 0 !important; background-size:cover !important;}
+.carousel-inner h3,.carousel-inner h4,.carousel-inner p{ color:#FFF;}
+.carousel-inner .item.inner h3{ margin-bottom:25px;}
+.lencare-section{ background:#ffbe12; display:table; width:100%;}
+.lencare-section h3{ color:#000; font-size:18px;}
+.lencare-section img{ display:inline-block !important;}
+.lencare-section .form .form-group{ display:inline-block; text-align:center;}
+.lencare-section .form .form-group .form-control{ border:none; background-color:#FFF; border-radius:0; min-height:42px;}
+.lencare-section .form button{ background-color:#ff0000; border-color:#b30000;}
+@media screen and (min-width: 768px) {
+#myCarousel{ margin-top: 60px;}
+#myCarousel .carousel-inner .item{ height:300px;}
+#myCarousel .carousel-inner .item.inner{ height:200px;}
+#myCarousel .carousel-inner .item.inner.ad1 { background:#850000 url(../img/slides/slider2.png) no-repeat right 0 !important; background-size:65% !important;}
+#myCarousel .carousel-inner .item.inner.ad2 { background:#3e8ede url(../img/slides/slider3.png) no-repeat right 0 !important; background-size:65% !important;}
+#myCarousel .carousel-inner .item.inner.ad1:before{ content:''; position:absolute; left:0; top:0; height:100%; width:100%; background: url(../img/slides/bg-red.png) no-repeat left 0 !important; background-size:65% !important;}
+#myCarousel .carousel-inner .item.inner.ad3 { background:#ff6b00 url(../img/slides/slider1.png) no-repeat right 0 !important; background-size:65% !important;}
+.lencare-section.banner{ margin-top:30px; padding:0 30px;}
+.lencare-section div[class*="col-"]{ display:table-cell; vertical-align:middle; float:none;}
+.lencare-section .form .form-group div[class*="col-"]{ padding:0; float:none;}
+.lencare-section .form .form-group{ width:50%;}
+.lencare-section.banner .form .form-group{ width:80%; margin:0;}
+.lencarePopText{ position:absolute; top:30px; left:0; width:100%; height:100px; text-align:center; }
+}
+@media (max-width: 767px) {
+#myCarousel .carousel-inner .item{ height:auto;}
+.contentBox,.sidebarBox{ min-height: initial !important;}
+.lencare-section{ width:95%;}
+.lencare-section.banner,.lencare-section,.subscribe-section{ text-align:center;}
+.lencare-section .form .form-group{ width:100%;}
+#lencarepop .lencare-section .form .form-group div[class*="col-"]{ text-align:center !important;}
+.lenovo-logo{ position:absolute; top:52px;}
+}
+.contentBox{ min-height:400px;}
+.offersposition{  width:100%;}
+.offers{ background:#f7f7f7; margin:0 -15px; padding:20px;}
+.offers.sidebarBox p{ margin-bottom:30px;}
+.bottom-content ul{ margin:0; padding:0;}
+.bottom-content ul li{ font-size:12px; line-height:23px;}
+.bottom-content ul li a{ color:#000;}
+.modal-backdrop{z-index:99999;}
+#lencarepop,#contact,#divTerms{ z-index:999999;}
+.vertical-alignment-helper { display: table; height: 100%; width: 100%; }
+.vertical-align-center { display: table-cell; vertical-align: middle; }
+.vertical-align-center .modal-content { width: inherit; height: inherit; margin: 0 auto; }
+.bg-orange{ background:#ffbe12;}
+.popup-lencare{ background-color: #ffbe12; border-radius:0; z-index: 999; border: none; padding: 25px 40px; margin-bottom:0; position:relative;}
+.popup-lencare .close{ padding-bottom: 8px; color: #FFF; opacity:1; position:absolute !important; right:4px;  font-size:14px; top:5px; z-index:999999; width:22px; height:22px;}
+.side-image { height: 100% !important; overflow: hidden; position: absolute; top: 0; right:0; }
+.background-image_1 { background-repeat: no-repeat; background-size: contain !important; height: 100%; right: 0; background-position: right bottom; position: absolute; top: 0; width: 100%; z-index: 0; background-image: url(../img/lencare-bg.png) ; }
+#lencarepop .lencare-section div[class*="col-"]{ text-align:left !important;}
+.popup-lencare .subscribe-section .form-group .btn-subscribe{ background-color: #000000; border-color: #000000;}
+.contactPop{ background:#E8E8E8; margin-bottom:0;}
+.contactPop .close{ padding-bottom: 8px; color: #000; opacity:1; font-size:14px; position:relative; z-index:999999;}
+
+.contentBox h3{ padding-bottom:12px;}
+.contentBox .form-control{ border-radius:0;}
+.contentBox label{ font-weight:normal; font-size:13px; color:#000;}
+.contentBox label span{ color:#FF0004;}
+.popup-lencare a.lenovo-logo{ position:absolute; width:35px; height:141px; top:33px; left:0; z-index: 9999 !important;}
+.popup-lencare a.lenovo-logo img{ max-width:35px;}
